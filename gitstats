@@ -1294,6 +1294,7 @@ plot 'files_by_date.dat' using 1:2 w steps
 		f.write(
 """
 set output 'lines_of_code.png'
+set size 640,480
 unset key
 set yrange [0:]
 set xdata time
